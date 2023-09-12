@@ -1,0 +1,112 @@
+body{
+    direction: ltr ;
+    text-align: left;
+}
+.nice-select {
+    text-align: left !important;
+    padding-left: 10px;
+    padding-right: unset;
+}
+.nice-select:after {
+    left: unset;
+    right: 10px;
+}
+.contain-notification-num{
+    right: unset;
+    left: -4px;
+}
+.frame_1{
+    right: unset;
+    left: 0;
+}
+.frame_2{
+        left: unset;
+        right: o;
+    }
+
+html[lang="en"]  {
+    @media (min-width:991px) {
+    .project_nav li a {
+        margin-inline-end: 20px;
+        padding: 5px 20px 5px 0;
+    }
+}
+}
+.sm_select .select2-container .select2-selection--single .select2-selection__rendered,
+.select_box .select2-container .select2-selection--single .select2-selection__rendered 
+ {
+    padding-right: unset;
+    padding-left: 10px;
+}  
+.collapse_title .btn{
+    text-align: left;
+}
+.login_title::before{
+    right: unset;
+    left: -11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: unset;
+
+}
+.personal_accout_dropdown .dropdown-toggle::after {
+    position: absolute;
+    left: unset;
+    right: 7px;
+}
+.select_box .select2-container--default .select2-selection--single .select2-selection__arrow {
+    left: unset;
+    right: 5px;
+}
+.cotain_course_details_img::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(98 98 195 / 48%);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.sm_select .select2-container--default .select2-selection--single .select2-selection__arrow {
+    left: unset;
+    right: 3px;
+}
+.cotain_course_details_img::after{
+    left: unset;
+    right: 0;
+}
+.edit_icon{
+    left: unset;
+    right: -17px;
+}
+.contain-input-icon {
+    left: unset;
+    right: 10px;
+}
+@media (min-width: 991px){
+    .project_nav li:not(:last-child) a {
+        border-width: 0 1px 0 0;
+        border-color: rgba(0,0,0,.1);
+        border-style: solid;
+    }
+}   
+@media (min-width: 991px){
+    .project_nav li a {
+        margin-inline-end: 20px;
+        padding: 5px 20px 5px 0
+    }
+}
+@media (max-width: 991px){
+    .project_nav {
+        left: 0;
+        transform: translateX(-100%);
+    }
+  }
+  /* //////////////////////// */
+  .logIn_shape::before{
+    left: unset;
+    right: -85px;
+}
+.medical_file_pagination{
+flex-direction: row !important;
+}
